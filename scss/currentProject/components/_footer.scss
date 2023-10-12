@@ -1,0 +1,63 @@
+.footerWrapper {
+	height: auto;
+	background-color: var(--primaryBlack);
+	color: var(--primaryWhite);
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+	.contactContainer {
+		@include bp(0px) {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			gap: 1rem;
+		}
+		@include bp-s {
+		}
+		@include bp-ss {
+		}
+		@include bp-sm {
+		}
+		@include bp-md {
+		}
+		@include bp-lg {
+		}
+		@include bp-xl {
+		}
+		@include bp-xxl {
+		}
+		.contactInfoContainer {
+			color: var(--primaryWhite);
+			letter-spacing: 2px;
+			display: flex;
+			gap: 1.5rem;
+			width: 13rem;
+			position: relative;
+			align-items: center;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	.imgContainer {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		.img {
+			width: 200px;
+		}
+	}
+	.mapContainer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 1rem;
+	}
+	.mapImage {
+		width: 150px;
+	}
+	.mapIconContainer {
+		display: flex;
+		gap: 1rem;
+	}
+}

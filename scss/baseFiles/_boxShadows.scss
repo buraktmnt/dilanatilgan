@@ -1,0 +1,76 @@
+//BOX SHADOWS
+
+//neumorphism box shadow light
+.neumorphic {
+  box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
+    -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
+}
+.neumorphic--pressed {
+  box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.397),
+    inset -6px -6px 10px 0 rgba(39, 39, 39, 0.5);
+}
+.neumorphic-dark {
+  box-shadow: 6px 6px 12px 0 rgba(29, 28, 28, 0.857),
+    -2px -2px 8px 0 rgba(83, 83, 83, 0.5);
+}
+.neumorphic-dark--pressed {
+  box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
+    inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+}
+
+.searchBarBoxShadow {
+  box-shadow: 8px 8px 12px 0 rgba(0, 0, 0, 0.089),
+    -3px -3px 12px 0 rgba(190, 190, 190, 0.123);
+  border-radius: 10px;
+}
+.weeklyContainerBoxShadow {
+  box-shadow: 4px 4px 12px 0 rgba(0, 0, 0, 0.171),
+    -2px -2px 12px 0 rgba(71, 71, 71, 0.5);
+}
+.cardShadow {
+  box-shadow: 7px 7px 10px 0 rgba(0, 0, 0, 0.2),
+    -12px -12px 12px 0 rgba(228, 228, 228, 0.575);
+}
+.blogBoxShadow {
+  box-shadow: 8px 8px 12px 0 rgba(0, 0, 0, 0.089),
+    -3px -3px 12px 0 rgba(167, 54, 54, 0.466);
+  border-radius: 10px;
+}
+.hakkimizdaBoxShadow {
+  box-shadow: 8px 8px 12px 0 rgba(0, 0, 0, 0.089),
+    -3px -3px 12px 0 rgba(190, 190, 190, 0.123);
+  border-radius: 10px;
+}
+.iletisimBoxShadow {
+  box-shadow: 8px 8px 12px 0 rgba(0, 0, 0, 0.089),
+    -3px -3px 12px 0 rgba(190, 190, 190, 0.123);
+  border-radius: 10px;
+}
+.yaziGonderinBoxShadow {
+  box-shadow: 8px 8px 12px 0 rgba(0, 0, 0, 0.089),
+    -3px -3px 12px 0 rgba(190, 190, 190, 0.123);
+  border-radius: 10px;
+}
+.inputFieldBoxShadow {
+  box-shadow: 8px 8px 12px 0 rgba(0, 0, 0, 0.719),
+    -3px -3px 12px 0 rgba(190, 190, 190, 0.459);
+  border-radius: 10px;
+}
+.submitButtonBoxShadow {
+  box-shadow: 5px 5px 12px 0 rgba(134, 134, 134, 0.541),
+    -3px -3px 8px 0 rgb(231, 231, 231);
+  border-radius: 10px;
+}
+//neumorphism box shadow light
+.box-shadow-light {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+//neumorphism box shadow dark
+.box-shadow-dark {
+  box-shadow: 8px 8px 10px rgb(25, 25, 25), -8px -8px 10px rgb(60, 60, 60);
+}
+.retroshadow {
+  color: var(--primaryWhite);
+  letter-spacing: 0.05em;
+  text-shadow: 4px 4px 0px #571515, 7px 7px 0px rgba(0, 0, 0, 0.2);
+}

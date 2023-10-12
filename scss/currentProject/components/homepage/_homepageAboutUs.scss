@@ -1,0 +1,39 @@
+.homepageAboutUsWrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.image {
+		width: 50%;
+	}
+	.textContainer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 50%;
+		padding-left: 5rem;
+		padding-right: 5rem;
+		gap: 5rem;
+	}
+	.title {
+		@extend .lgText;
+		letter-spacing: 4px;
+		font-weight: bold;
+	}
+	.text {
+		letter-spacing: 1.3px;
+	}
+	.button {
+		background-color: var(--primaryPink);
+		color: var(--primaryWhite);
+		width: 10rem;
+		height: 3rem;
+		outline: var(--primaryPink) solid 3px;
+		border: solid var(--primaryWhite) 3px;
+		border-radius: 30px;
+		letter-spacing: 2px;
+		font-family: 'Hind', sans-serif;
+		font-weight: bold;
+		font-size: 15px;
+	}
+}

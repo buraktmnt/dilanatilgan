@@ -1,0 +1,15 @@
+.imagesGridWrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 0px 0px;
+	.imageItem {
+		height: 100%;
+		width: 100%;
+	}
+	.bgPink {
+		background-color: var(--primaryPink);
+	}
+	.bgBlack {
+		background-color: var(--primaryBlack);
+	}
+}

@@ -1,0 +1,223 @@
+.contactSectionMain {
+	min-height: 100vh;
+	min-width: 100vw;
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color: var(--primaryPink);
+	h2 {
+		color: var(--primaryWhite);
+		@include bp(0px) {
+			padding-top: 4rem;
+			text-align: center;
+			font-size: 3.3rem;
+			margin: 0.4rem;
+		}
+		@include bp-s {
+		}
+		@include bp-ss {
+		}
+		@include bp-sm {
+		}
+		@include bp-md {
+			padding-top: 0;
+			margin-top: 8rem;
+			font-size: 5rem;
+		}
+		@include bp-lg {
+		}
+		@include bp-xl {
+		}
+		@include bp-xxl {
+		}
+	}
+	.copyrightText {
+		margin-bottom: 1rem;
+		margin-top: 2rem;
+		font-size: 0.8rem;
+		text-align: center;
+		width: 70%;
+	}
+	.contactFormContainer {
+		display: flex;
+		width: 100vw;
+		@include bp(0px) {
+			flex-direction: column-reverse;
+			justify-content: start;
+			flex: 100%;
+			align-items: center;
+		}
+		@include bp-s {
+		}
+		@include bp-ss {
+		}
+		@include bp-sm {
+		}
+		@include bp-md {
+			flex-direction: row;
+			justify-content: space-around;
+			align-items: center;
+			flex: 80%;
+		}
+		@include bp-lg {
+		}
+		@include bp-xl {
+		}
+		@include bp-xxl {
+		}
+	}
+
+	.contactContainer {
+		@include bp(0px) {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			gap: 1rem;
+			margin-top: 4.5rem;
+		}
+		@include bp-s {
+		}
+		@include bp-ss {
+		}
+		@include bp-sm {
+		}
+		@include bp-md {
+			margin-top: -4rem;
+			gap: 4rem;
+		}
+		@include bp-lg {
+		}
+		@include bp-xl {
+		}
+		@include bp-xxl {
+		}
+		.contactInfoContainer {
+			color: var(--primaryWhite);
+			letter-spacing: 2px;
+			display: flex;
+			gap: 1.5rem;
+			position: relative;
+			align-items: center;
+		}
+	}
+
+	.formContainer {
+		@include bp(0px) {
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 3rem;
+			width: 90%;
+		}
+		@include bp-s {
+		}
+		@include bp-ss {
+			width: 80%;
+		}
+		@include bp-sm {
+			width: 70%;
+		}
+		@include bp-md {
+			width: auto;
+		}
+		@include bp-lg {
+		}
+		@include bp-xl {
+		}
+		@include bp-xxl {
+		}
+		.inputField {
+			font-family: inherit;
+			border: none;
+			color: var(--primaryPink);
+			@include bp(0px) {
+				height: 3rem;
+				width: 100%;
+				border-radius: 20px;
+				margin-bottom: 1rem;
+				padding: 1rem;
+			}
+			@include bp-s {
+			}
+			@include bp-ss {
+			}
+			@include bp-sm {
+			}
+			@include bp-md {
+				height: 3rem;
+				width: 30rem;
+				border-radius: 20px;
+				margin-bottom: 1rem;
+				padding: 1rem;
+			}
+			@include bp-lg {
+			}
+			@include bp-xl {
+			}
+			@include bp-xxl {
+			}
+			&::placeholder {
+				color: var(--primaryPink);
+				letter-spacing: 2px;
+				font-size: 1rem;
+			}
+		}
+		.textArea {
+			font-family: inherit;
+			border: none;
+			@include bp(0px) {
+				height: 15rem;
+				width: 100%;
+				border-radius: 20px;
+				margin-bottom: 1rem;
+				padding-top: 0.5rem;
+				padding: 1rem;
+				color: var(--primaryPink);
+				resize: none;
+			}
+			@include bp-s {
+			}
+			@include bp-ss {
+			}
+			@include bp-sm {
+			}
+			@include bp-md {
+				height: 10rem;
+				width: 30rem;
+				border-radius: 20px;
+				margin-bottom: 1rem;
+				padding-top: 0.5rem;
+				padding-left: 1rem;
+			}
+			@include bp-lg {
+			}
+			@include bp-xl {
+			}
+			@include bp-xxl {
+			}
+			&::placeholder {
+				color: var(--primaryPink);
+				letter-spacing: 2px;
+				font-size: 1rem;
+			}
+		}
+		.submitFormButton {
+			font-size: 1rem;
+			font-weight: bold;
+			letter-spacing: 2px;
+			width: 10rem;
+			height: 3rem;
+			border: 2px var(--primaryPink) solid;
+			background-color: var(--primaryWhite);
+			color: var(--primaryPink);
+			border-radius: 20px;
+			outline: 2px solid var(--primaryWhite);
+		}
+	}
+
+	.pl-05 {
+		padding-left: 0.2rem;
+	}
+}

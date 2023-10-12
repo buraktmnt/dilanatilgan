@@ -1,0 +1,27 @@
+//custom css
+@import '../scss/currentProject/custom';
+
+//variables and functions
+@import '../scss/baseFiles/functions';
+@import '../scss/baseFiles/variables';
+
+//base & layout
+@import '../scss/baseFiles/base';
+@import '../scss/baseFiles/breakpoints';
+//@import "grid";
+
+//colors
+@import '../scss/currentProject/colors';
+
+//utilities (margin, padding, opacity...)
+@import '../scss/baseFiles/utilities';
+@import '../scss/currentProject/texts';
+
+//current project styles
+@import '../scss//currentProject/components/sideScrollingText';
+@import '../scss//currentProject/components/footer';
+@import '../scss//currentProject/components/homepage/header';
+@import '../scss//currentProject/components/homepage/homepageAboutUs';
+@import '../scss//currentProject/components/homepage/whatWeDo';
+@import '../scss//currentProject/components/homepage/dilan';
+@import '../scss//currentProject/components/homepage/homepageContact';

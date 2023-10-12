@@ -1,0 +1,73 @@
+$breakpoints: (
+  "xs": 0,
+  "s": 300px,
+  "sx": 400px,
+  "ss": 450px,
+  "sm": 576px,
+  "md": 768px,
+  "slg": 820px,
+  "lg": 992px,
+  "xl": 1184px,
+  "xxl": 1440px,
+);
+
+@mixin bp-xs {
+  @media only screen and (min-width: map-get($breakpoints,"xs")) {
+    @content;
+  }
+}
+
+@mixin bp-sm {
+  @media only screen and (min-width: map-get($breakpoints,"sm")) {
+    @content;
+  }
+}
+
+@mixin bp-md {
+  @media only screen and (min-width: map-get($breakpoints,"md")) {
+    @content;
+  }
+}
+
+@mixin bp-lg {
+  @media only screen and (min-width: map-get($breakpoints,"lg")) {
+    @content;
+  }
+}
+
+@mixin bp-xl {
+  @media only screen and (min-width: map-get($breakpoints,"xl")) {
+    @content;
+  }
+}
+@mixin bp-xxl {
+  @media only screen and (min-width: map-get($breakpoints,"xxl")) {
+    @content;
+  }
+}
+/////////////////////////////////CUSTOM BREAKPOINTS/////////////////////////////
+@mixin bp($bp: 0) {
+  @media only screen and (min-width: $bp) {
+    @content;
+  }
+}
+@mixin bp-s {
+  @media only screen and (min-width: map-get($breakpoints,"s")) {
+    @content;
+  }
+}
+@mixin bp-ss {
+  @media only screen and (min-width: map-get($breakpoints,"ss")) {
+    @content;
+  }
+}
+@mixin bp-slg {
+  @media only screen and (min-width: map-get($breakpoints,"slg")) {
+    @content;
+  }
+}
+@mixin bp-sx {
+  @media only screen and (min-width: map-get($breakpoints,"sx")) {
+    @content;
+  }
+}

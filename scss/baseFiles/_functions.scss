@@ -1,0 +1,7 @@
+//placeholder function from tutorial
+
+@function light-comp($color){
+    $compColor: complement($color);
+    $lightCompColor: lighten($compColor,10%);
+    @return $lightcompColor;
+}
